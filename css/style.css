@@ -2,6 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .custom-header {
     background-color: #14080E;
@@ -152,10 +153,10 @@
     position: absolute;
     width: 100%;
     height: 200px;
-    background: #333;
+    background-image: url(../img/thumbnail.png);
+    background-size: contain;
     /*
-        background-image: url('IMAGE LINK');
-        background-size: contain;
+        background: #333;
     */
 }
 .custom-card::after {
@@ -171,6 +172,7 @@
     font-weight: lighter;
     margin-top: 5px;
     position: absolute;
+    opacity: 0;
 }
 
 .custom-card .custom-card-description {
