@@ -13,8 +13,8 @@
 1. Clone the repository & Navigate to the project directory:
    
    ```bash
-   git clone https://github.com/yourusername/deltacode.git
-   cd deltacode
+   git clone https://github.com/yourusername/DeltaCode.git
+   cd DeltaCode
 2. Open ```e-commerce.html``` in a browser to view the page.
 
 ## Design Overview
